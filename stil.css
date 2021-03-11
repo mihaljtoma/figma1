@@ -1,0 +1,375 @@
+*{
+    margin: 0;
+}
+@font-face{
+src: url(Montserrat.zip/Montserrat-Black.ttf);
+font-family: Montserrat Black;
+}
+@media(max-width:3000px){
+body{
+    background-color: black;
+}
+ .container nav {
+padding-top: 25px;
+margin-left: 75px;
+display: inline-block;
+display: flex;
+flex-direction: row;
+
+}
+ .container nav ul{
+    list-style: none;
+
+}
+ .container nav ul li{
+display:inline-block;
+
+}
+.container nav ul li a{
+text-decoration: none;
+color: white;
+padding-right:45px ;
+text-transform: uppercase;
+}
+ .container nav h3{
+    color: white;
+    padding-right:1px ;
+    font-size:25px;
+    font-weight: bold;
+}
+.slikica {
+    order: 2;
+}
+.rect{
+    width: 160px;
+  height: 2px;
+  background: linear-gradient(90deg, #A45410 50%, white 50%);
+  position: absolute;
+  top: 560px;
+  left: 70px;
+}
+
+.koloc{
+    display: none;
+}
+.container .plsa ul li h3{
+    display: none;
+}
+.container .plsa ul li h6{
+    display: none;
+
+
+}
+.container .hiz h3{
+    display: none;
+}
+.kinezi{
+    display: none;
+}
+.add-to-cart{
+    display: none;
+}
+.bbb{
+    display: none;
+}
+.BZB{
+    display: none;
+}
+.bike{
+    display: none;
+}
+.getriba{
+    margin-left:630px;
+}
+.izgled .container{
+    position: absolute;
+    right: 250px;
+    top: 220px;
+}
+.izgled .container nav ul li{
+    color: white;
+    display: flex;
+    flex-direction: column;
+   padding-bottom: 40px;
+   
+}
+.izgled .container nav ul li h3{
+font-size: 30px;
+}
+.izgled .container nav ul li h6{
+    font-size: 12px;
+}
+.mot .container nav ul li{
+    color: grey;
+}
+.mot .container{
+    transform: rotate(-90deg);
+    top:470px;
+    position: absolute;
+    display: flex;
+right: 180px;
+    
+}
+.mot .container nav ul li{
+padding: 15px;
+font-size: 15px;
+}
+.kinezi1{
+    color: white;
+    position: absolute;
+    font-size: 100px;
+    top: 370px;
+  -webkit-text-stroke: 2px #A45410;
+color:  transparent ;
+    
+}
+.krug{
+    position: absolute;
+    top: 90px;
+    left: 520px;
+    
+}
+.container section .par p{
+    color: white;
+    font-size: 12px;
+    position: absolute;
+    top: 530px;
+    left: 300px;
+}
+.container section .par .tab{
+color: white;
+position: absolute;
+top: 552px;
+left: 25px;
+}
+.crta{
+    display: none;
+}
+.getriba1{
+    display: none;
+}
+.zlato{
+    z-index: -1;
+    background-image: url(../slikke/zlato.jpg);
+    height: 170px;
+    width: 310px;
+    position: absolute;
+    right: 240px;
+    top: 20px;
+}
+}
+@media(max-width:650px){
+    
+    .rect{
+        display: none;
+    }
+    body{
+        display: flex;
+        flex-direction: column;
+        background-color: black;
+    }
+   .container nav ul{
+       display:none;
+   }
+   .container nav h3{
+    
+    color: white;
+    padding-left: 20%;
+    font-size: 30px;
+   }
+
+   .container nav h3{
+    height: 100px;
+    background:black;
+    display: flex;
+    align-items: center;
+    
+ }
+    .koloc {
+    height: 300px;
+    width: 100%;
+    margin-bottom: 0;
+    padding-bottom: 0%;
+    display: flex;
+ }
+ .BZB{
+     padding-top: 5px;
+     color: rgba(255, 255, 255, 1);
+     padding-right: 40px;
+     text-transform: uppercase;
+     align-content: center;
+     background-color: black;
+     display: flex;
+ }
+ .BZB h3{
+text-align: center;
+font-size: 25px;
+display:flex ;
+padding-left: 18%;
+
+}
+.bbb{
+    padding-top:15px ;
+    padding-bottom: 15px;
+    background-color: black;
+    color: rgba(255, 255, 255, 1);
+    font-family: Montserrat Black;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.getriba{
+    display: none;
+}
+.getriba1{
+    height: 300px;
+    width: 100% ;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    display: flex ;
+}
+.kinezi{
+    padding-top: 0;
+    text-align: left;
+font-size: 180px;
+padding-right: 30px;
+display:flex ;
+color:  transparent ;
+background-color: black;
+text-overflow: center;
+  white-space: nowrap;
+  overflow: hidden;
+  -webkit-text-stroke: 2px #A45410;
+   
+  
+}
+
+.bike{
+    padding-top:15px ;
+    padding-bottom: 15px;
+    background-color: black;
+    color: rgba(255, 255, 255, 1);
+    font-family: Montserrat Black;
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+}
+
+
+.container .plsa {
+    justify-content: center;
+    display: flex;
+    color: white;
+    flex-flow: row;
+}
+.container .plsa ul li{
+    flex-direction: row;
+    padding-left: 50px;
+   display: flex;
+   padding-top:15px ;
+    
+
+}
+.container .plsa ul li h3{
+
+    /*font-weight: bold;
+font-size: 35px;*/
+padding-top:15px ;
+    padding-bottom: 15px;
+    background-color: black;
+    color: rgba(255, 255, 255, 1);
+    font-family: Montserrat Black;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.container .plsa ul li h6{
+
+    font-size: 12px;
+
+}
+.container .hiz{
+position: absolute;
+color:rgba(63, 62, 68, 1);
+transform: rotate(-90deg);
+display: flex;
+flex-direction: column;
+margin-left: 40px;
+}
+.hiz h3{
+
+display: flex;
+
+}
+
+.container .par p{
+    display: none;
+}
+
+.container .plsa nav ul li h6{
+    display: flex;
+    height: 20%;
+    color: blanchedalmond;
+
+    }
+    .container .plsa nav ul li h3{
+    display: flex;
+    height: 20px;
+    color: blanchedalmond;
+    
+        }
+        .zlato{
+            display: none;
+        }
+.add-to-cart a{
+    padding: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    clip-path: polygon(26% 0, 100% 0, 100% 74%, 75% 100%, 0 100%, 0 25%);
+    margin-left: 10%;
+    background: linear-gradient(96.17deg, #A45410 0%, #FBEFB7 100%);
+    color: black;
+    text-decoration: none;
+    display: flex;
+    
+}
+.add-to-cart .gg{
+top: 30%;
+height: 50px;
+}
+
+.add-to-cart {
+margin-left: 30%;
+display: flex;
+flex-direction:row ;
+}
+
+.slikica{
+    display: none;
+}
+.sl{
+    display: none;
+}
+.krug{
+    display: none;
+}
+.kinezi1{
+    display: none;
+}
+.container section .par .tab{
+    display: none;
+    
+    
+}
+.respom .container{
+    padding-bottom: 30px;
+}
+.crta{
+    height: 23px;
+    width: 240px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    display: flex ;
+    padding-left: 120px;
+}
+
+
+}
